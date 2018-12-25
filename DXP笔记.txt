@@ -1,0 +1,43 @@
+
+2-4 原理图图纸设置
+
+design->document options
+
+2-8 网络标号与查看
+
+标号引脚要延伸。
+
+2-9 设置元件编号 
+
+Tools-> Annotatoin->Annotate schematics
+右下角 update changes list 自动编号
+       accept changes      接受改变
+       validate changes    验证
+       excute changes      执行改变
+
+
+2-11  原理图编译查错
+
+点工和右键菜单
+
+2-12 绘制原理图元件
+新建原理图库
+File-> new-> library -> schematic library
+利用现成的原理图生成库
+design -> make schematic library
+
+
+3-1 新建PCB与外形绘制
+
+复制线 ctrl+c,再选参考点。
+
+3-2.define board sharp and convert 
+
+在mechanical 绘制sharp ,选中四边， design->board sharp->define from selected objects.
+convert打孔，选中绘好的圆  ，Tools->convert->creat cutout from selected primitives
+
+3-4 工作层面
+
+右键 option -> layerstack manager
+
+
